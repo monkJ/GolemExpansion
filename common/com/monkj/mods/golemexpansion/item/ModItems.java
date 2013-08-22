@@ -23,7 +23,7 @@ public class ModItems {
     /**
      * tomeOfRessurection
      */
-    public static ItemGolemExpansionUniversal golemExpansionUniversal = (ItemGolemExpansionUniversal) new ItemGolemExpansionUniversal(ItemGWId).setMaxStackSize(1)
+    public static ItemResurrectionTome golemExpansionUniversal = (ItemResurrectionTome) new ItemResurrectionTome(ItemGWId).setMaxStackSize(1)
             .setCreativeTab(CreativeTabs.tabMisc).setUnlocalizedName("tomeOfRessurection").func_111206_d(Reference.texture("tomeOfRessurection").toString());
     /**
      * Register my items with the game and make them craftable
