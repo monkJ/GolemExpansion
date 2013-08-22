@@ -20,9 +20,9 @@ import com.monkj.mods.golemexpansion.lib.Reference;
  * @license 
  * 
  */
-public class ItemGolemExpansionUniversal extends Item {
+public class ItemResurrectionTome extends Item {
     
-    public ItemGolemExpansionUniversal(int id) {
+    public ItemResurrectionTome(int id) {
         super(id - Reference.ITEMID_SHIFT);
         
     }
