@@ -1,5 +1,6 @@
 package com.monkj.mods.golemexpansion.item;
 
+import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
@@ -28,13 +29,10 @@ public class ModItems {
      * Register my items with the game and make them craftable
      */
     public static void registerItems() {
-        GameRegistry.addRecipe(golemExpansionUniversal.stack(0),new Object[] {"grg", "rpr", "grg",
-            'g', Item.glowstone,
-            'r', Item.blazePowder,
-            'p', Item.paper });
-        GameRegistry.addRecipe(golemExpansionUniversal.stack(0),new Object[] {"grg", "rpr", "grg",
-            'r', Item.glowstone,
-            'g', Item.blazePowder,
-            'p', Item.paper });
+        GameRegistry.addRecipe(golemExpansionUniversal.stack(0),new Object[] {" r ", "gpg", " i ",
+            'g', Item.feather,
+            'r', Block.pumpkin,
+            'p', Item.book ,
+        	'i', Item.glowstone});
     }
 }

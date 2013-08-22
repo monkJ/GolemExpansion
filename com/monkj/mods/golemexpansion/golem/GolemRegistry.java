@@ -187,7 +187,7 @@ public class GolemRegistry {
         GolemRegistry.registerGolem(EntityDirtGolem.class, Block.dirt, GolemShapes.DEFAULT);
         GolemRegistry.registerGolem(EntitySandstoneGolem.class, Block.sandStone, GolemShapes.DEFAULT);
         GolemRegistry.registerGolem(EntityStoneGolem.class, Block.stone, GolemShapes.DEFAULT);
-        GolemRegistry.registerGolem(EntityClayGolem.class, Block.blockClay, GolemShapes.DEFAULT);
+        GolemRegistry.registerGolem(EntityClayGolem.class, Block.blockClay, GolemShapes.PILLAR);
         GolemRegistry.registerGolem(EntityEmeraldGolem.class, Block.blockEmerald, GolemShapes.DEFAULT);
         GolemRegistry.registerGolem(EntityGoldGolem.class, Block.blockGold, GolemShapes.DEFAULT);
         GolemRegistry.registerGolem(EntityLapisGolem.class, Block.blockLapis, GolemShapes.DEFAULT);

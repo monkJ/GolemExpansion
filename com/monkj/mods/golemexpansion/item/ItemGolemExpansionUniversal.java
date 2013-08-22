@@ -60,9 +60,9 @@ public class ItemGolemExpansionUniversal extends Item {
                 itemStack.stackSize--;
             }
             if (entityPlayer != null)
-                entityPlayer.addChatMessage("§1Spawned golem: " + g.getName());
+                entityPlayer.addChatMessage("Spawned golem: " + g.getName());
         } else if (entityPlayer != null) {
-            entityPlayer.addChatMessage("§1No golem could be spawned.");
+            entityPlayer.addChatMessage("No golem could be spawned.");
         }
         if (g != null && entityPlayer != null) {
             g.setPlayerCreated(true);
