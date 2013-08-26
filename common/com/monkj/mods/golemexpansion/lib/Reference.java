@@ -2,8 +2,6 @@ package com.monkj.mods.golemexpansion.lib;
 
 import net.minecraft.util.ResourceLocation;
 
-import com.monkj.mods.golemexpansion.item.ItemGolemExpansionUniversal;
-
 /**
  * GolemExpansion
  * 
